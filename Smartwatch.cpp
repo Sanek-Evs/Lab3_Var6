@@ -30,8 +30,8 @@ Smartwatch& Smartwatch::operator=(Smartwatch const& smartwatch)
 }
 void Smartwatch::print()
 {
-    cout<<"\nÑìàðò-÷àñû: ";
-    cout<<"\nÌîäåëü - "<<this->model;
-    cout<<"\nÑåðèéíûé íîìåð - "<<this->snumber;
-    cout<<"\nÁàòòàðåÿ (MAh) - "<<this->battory;
+    cout<<"\nÐ¡Ð¼Ð°Ñ€Ñ‚-Ñ‡Ð°ÑÑ‹: ";
+    cout<<"\nÐœÐ¾Ð´ÐµÐ»ÑŒ - "<<this->model;
+    cout<<"\nÐ¡ÐµÑ€Ð¸Ð¹Ð½Ñ‹Ð¹ Ð½Ð¾Ð¼ÐµÑ€ - "<<this->snumber;
+    cout<<"\nÐ‘Ð°Ñ‚Ñ‚Ð°Ñ€ÐµÑ (MAh) - "<<this->battory;
 }

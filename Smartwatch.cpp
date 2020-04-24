@@ -28,7 +28,7 @@ Smartwatch& Smartwatch::operator=(Smartwatch const& smartwatch)
     this->battory=smartwatch.battory;
     return *this;
 }
-void Smartwatch::print()
+void Smartwatch::print()const
 {
     cout<<"\nСмарт-часы: ";
     cout<<"\nМодель - "<<this->model;

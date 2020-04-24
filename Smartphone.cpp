@@ -28,7 +28,7 @@ Smartphone& Smartphone::operator=(Smartphone const& smartphone)
     this->diagonal=smartphone.diagonal;
     return *this;
 }
-void Smartphone::print()
+void Smartphone::print()const
 {
     cout<<"\nСмартфон:  ";
     cout<<"\nМодель - "<<this->model;

@@ -13,6 +13,6 @@ public:
 
     const string& getbrend()const;
     void setbrend (string const& brend);
-    void print();
+    void print()const;
     Notebook& operator=(Notebook const& notebook);
 }  ;

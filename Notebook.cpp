@@ -30,8 +30,8 @@ Notebook& Notebook::operator=(Notebook const& notebook)
 }
 void Notebook::print()
 {
-    cout<<"\nÍîóòáóê:";
-    cout<<"\nÌîäåëü - "<<this->model;
-    cout<<"\nÑåðèéíûé íîìåð - "<<this->snumber;
-    cout<<"\nÁðåíä - "<<this->brend;
+    cout<<"\nÐÐ¾ÑƒÑ‚Ð±ÑƒÐº:";
+    cout<<"\nÐœÐ¾Ð´ÐµÐ»ÑŒ - "<<this->model;
+    cout<<"\nÐ¡ÐµÑ€Ð¸Ð¹Ð½Ñ‹Ð¹ Ð½Ð¾Ð¼ÐµÑ€ - "<<this->snumber;
+    cout<<"\nÐ‘Ñ€ÐµÐ½Ð´ - "<<this->brend;
 }

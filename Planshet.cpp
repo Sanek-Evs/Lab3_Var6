@@ -31,8 +31,8 @@ Planshet& Planshet::operator=(Planshet const& planshet)
 }
 void Planshet::print()
 {
-    cout<<"\nÏëàíøåò:";
-    cout<<"\nÌîäåëü - "<<this->model;
-    cout<<"\nÑåðèéíûé íîìåð - "<<this->snumber;
-    cout<<"\nÄèàãîíàëü - "<<this->diagonal;
+    cout<<"\nÐŸÐ»Ð°Ð½ÑˆÐµÑ‚:";
+    cout<<"\nÐœÐ¾Ð´ÐµÐ»ÑŒ - "<<this->model;
+    cout<<"\nÐ¡ÐµÑ€Ð¸Ð¹Ð½Ñ‹Ð¹ Ð½Ð¾Ð¼ÐµÑ€ - "<<this->snumber;
+    cout<<"\nÐ”Ð¸Ð°Ð³Ð¾Ð½Ð°Ð»ÑŒ - "<<this->diagonal;
 }

@@ -16,7 +16,7 @@ public:
     void setmodel (string const& model);
     void setserialnumber(int const snumber);
 
-    virtual void print()=0;
+    virtual void print()const=0;
     ElectronnoeUstroistvo& operator=(ElectronnoeUstroistvo const& electr_ust);
 
 

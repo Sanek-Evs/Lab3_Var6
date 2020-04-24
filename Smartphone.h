@@ -13,6 +13,6 @@ public:
 
     const int& getdiagonal()const;
     void setdiagonal (int const& diagonal);
-    void print();
+    void print()const;
     Smartphone& operator=(Smartphone const& smartphone);
 }  ;

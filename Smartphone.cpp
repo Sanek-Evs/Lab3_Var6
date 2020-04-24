@@ -30,8 +30,8 @@ Smartphone& Smartphone::operator=(Smartphone const& smartphone)
 }
 void Smartphone::print()
 {
-    cout<<"\nÑìàðòôîí:  ";
-    cout<<"\nÌîäåëü - "<<this->model;
-    cout<<"\nÑåðèéíûé íîìåð - "<<this->snumber;
-    cout<<"\nÄèàãîíàëü - "<<this->diagonal;
+    cout<<"\nÐ¡Ð¼Ð°Ñ€Ñ‚Ñ„Ð¾Ð½:  ";
+    cout<<"\nÐœÐ¾Ð´ÐµÐ»ÑŒ - "<<this->model;
+    cout<<"\nÐ¡ÐµÑ€Ð¸Ð¹Ð½Ñ‹Ð¹ Ð½Ð¾Ð¼ÐµÑ€ - "<<this->snumber;
+    cout<<"\nÐ”Ð¸Ð°Ð³Ð¾Ð½Ð°Ð»ÑŒ - "<<this->diagonal;
 }

@@ -13,6 +13,6 @@ public:
 
     const int& getbattory()const;
     void setbattory(int const& battory);
-    void print();
+    void print() const;
     Smartwatch& operator=(Smartwatch const& smartwatch);
 }  ;

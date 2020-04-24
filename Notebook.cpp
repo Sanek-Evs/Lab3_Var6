@@ -28,7 +28,7 @@ Notebook& Notebook::operator=(Notebook const& notebook)
     this->brend=notebook.brend;
     return *this;
 }
-void Notebook::print()
+void Notebook::print()const
 {
     cout<<"\nНоутбук:";
     cout<<"\nМодель - "<<this->model;

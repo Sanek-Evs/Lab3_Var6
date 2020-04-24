@@ -29,7 +29,7 @@ Planshet& Planshet::operator=(Planshet const& planshet)
     this->diagonal=planshet.diagonal;
     return *this;
 }
-void Planshet::print()
+void Planshet::print()const
 {
     cout<<"\nПланшет:";
     cout<<"\nМодель - "<<this->model;

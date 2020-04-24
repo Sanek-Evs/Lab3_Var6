@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1587731842 source:c:\users\Сергей\desktop\lab3_var6\notebook.cpp
+	"Notebook.h"
+	<iostream>
+
+1587732771 c:\users\Сергей\desktop\lab3_var6\notebook.h
+	<string>
+	"ElectronnoeUstroistvo.h"
+
+1587731842 c:\users\Сергей\desktop\lab3_var6\electronnoeustroistvo.h
+	<string>
+
+1587731842 source:c:\users\Сергей\desktop\lab3_var6\planshet.cpp
+	"Planshet.h"
+	<iostream>
+
+1587732771 c:\users\Сергей\desktop\lab3_var6\planshet.h
+	<string>
+	"ElectronnoeUstroistvo.h"
+
+1587731852 source:c:\users\Сергей\desktop\lab3_var6\electronnoeustroistvo.cpp
+	"ElectronnoeUstroistvo.h"
+
+1587731842 source:c:\users\Сергей\desktop\lab3_var6\smartwatch.cpp
+	"Smartwatch.h"
+	<iostream>
+
+1587732771 c:\users\Сергей\desktop\lab3_var6\smartwatch.h
+	<string>
+	"ElectronnoeUstroistvo.h"
+
+1587732559 source:c:\users\Сергей\desktop\lab3_var6\smartphone.cpp
+	"Smartphone.h"
+	<iostream>
+
+1587732771 c:\users\Сергей\desktop\lab3_var6\smartphone.h
+	<string>
+	"ElectronnoeUstroistvo.h"
+
+1587732441 source:c:\users\Сергей\desktop\lab3_var6\main.cpp
+	<iostream>
+	"ElectronnoeUstroistvo.h"
+	"Smartphone.h"
+	"Notebook.h"
+	"Planshet.h"
+	"Smartwatch.h"
+

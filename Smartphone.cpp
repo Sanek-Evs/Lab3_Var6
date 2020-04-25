@@ -20,7 +20,14 @@ const int& Smartphone::getdiagonal()const
 }
 void Smartphone::setdiagonal (int const& diagonal)
 {
-    this->diagonal=diagonal;
+    int a;
+    a=diagonal;
+    while (a<=0)
+    {
+        cout << "Неверное значение, введите еще раз - ";
+        cin>>a;
+    }
+    this->diagonal=a;
 }
 Smartphone& Smartphone::operator=(Smartphone const& smartphone)
 {

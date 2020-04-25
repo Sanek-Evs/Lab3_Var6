@@ -63,10 +63,6 @@ case(2):
     smart.setserialnumber(snumber);
     cout<<"Введите диагональ:  ";
     cin>>diagonal;
-    while (diagonal<=0)
-    {
-        cout << "Неверное значение, введите еще раз - ";
-        cin >>diagonal;}
     smart.setdiagonal(diagonal);
     smart.print();
     break;
@@ -88,7 +84,8 @@ case(4):
     while (snumber<=0)
     {
         cout << "Неверное значение, введите еще раз - ";
-        cin >>snumber;}
+        cin >>snumber;
+    }
     nout.setserialnumber(snumber);
     cout<<"Введите бренд:  ";
     cin>>brend;
@@ -113,14 +110,11 @@ case(6):
     while (snumber<=0)
     {
         cout << "Неверное значение, введите еще раз - ";
-        cin >>snumber;}
+        cin >>snumber;
+    }
     tabl.setserialnumber(snumber);
     cout<<"Введите диагональ:  ";
     cin>>diagonal;
-    while (diagonal<=0)
-    {
-        cout << "Неверное значение, введите еще раз - ";
-        cin >>diagonal;}
     tabl.setdiagonal(diagonal);
     tabl.print();
     break;
@@ -142,14 +136,11 @@ case(8):
     while (snumber<=0)
     {
         cout << "Неверное значение, введите еще раз - ";
-        cin >>snumber;}
+        cin >>snumber;
+    }
     watch.setserialnumber(snumber);
     cout<<"Введите объем баттареи:  ";
     cin>>battory;
-    while (battory<=0)
-    {
-        cout << "Неверное значение, введите еще раз - ";
-        cin >>battory;}
     watch.setbattory(battory);
     watch.print();
     break;

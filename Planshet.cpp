@@ -21,7 +21,14 @@ const int& Planshet::getdiagonal()const
 }
 void Planshet::setdiagonal (int const& diagonal)
 {
-    this->diagonal=diagonal;
+    int a;
+    a=diagonal;
+    while (a<=0)
+    {
+        cout << "Неверное значение, введите еще раз - ";
+        cin>>a;
+    }
+    this->diagonal=a;
 }
 Planshet& Planshet::operator=(Planshet const& planshet)
 {

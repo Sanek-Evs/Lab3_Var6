@@ -20,7 +20,14 @@ const int& Smartwatch::getbattory()const
 }
 void Smartwatch::setbattory (int const& battory)
 {
-    this->battory=battory;
+    int a;
+    a=battory;
+    while (a<=0)
+    {
+        cout << "Неверное значение, введите еще раз - ";
+        cin>>a;
+    }
+    this->battory=a;
 }
 Smartwatch& Smartwatch::operator=(Smartwatch const& smartwatch)
 {

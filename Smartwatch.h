@@ -12,7 +12,7 @@ public:
     Smartwatch(Smartwatch const & smartwatch );
 
     const int& getbattory()const;
-    void setbattory(int const& battory);
+    bool setbattory(int const& battory);
     void print() const;
     Smartwatch& operator=(Smartwatch const& smartwatch);
 }  ;

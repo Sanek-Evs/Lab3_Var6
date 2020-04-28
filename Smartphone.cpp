@@ -18,16 +18,15 @@ const int& Smartphone::getdiagonal()const
 {
     return diagonal;
 }
-void Smartphone::setdiagonal (int const& diagonal)
+bool Smartphone::setdiagonal (int const& diagonal)
 {
-    int a;
-    a=diagonal;
-    while (a<=0)
+    if (diagonal > 0)
     {
-        cout << "Неверное значение, введите еще раз - ";
-        cin>>a;
+    this->diagonal=diagonal;
+    return true;
     }
-    this->diagonal=a;
+    else
+    {return false;}
 }
 Smartphone& Smartphone::operator=(Smartphone const& smartphone)
 {
@@ -35,7 +34,7 @@ Smartphone& Smartphone::operator=(Smartphone const& smartphone)
     this->diagonal=smartphone.diagonal;
     return *this;
 }
-void Smartphone::print()const
+void Smartphone::print() const
 {
     cout<<"\nСмартфон:  ";
     cout<<"\nМодель - "<<this->model;

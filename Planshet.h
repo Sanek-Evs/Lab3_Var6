@@ -12,7 +12,7 @@ public:
     Planshet(Planshet const & planshet);
 
     const int& getdiagonal()const;
-    void setdiagonal (int const& diagonal);
+    bool setdiagonal (int const& diagonal);
     void print()const;
     Planshet& operator=(Planshet const& planshet);
 }  ;

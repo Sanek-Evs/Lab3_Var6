@@ -19,16 +19,15 @@ const int& Planshet::getdiagonal()const
 {
     return diagonal;
 }
-void Planshet::setdiagonal (int const& diagonal)
+bool Planshet::setdiagonal (int const& diagonal)
 {
-    int a;
-    a=diagonal;
-    while (a<=0)
+    if (diagonal > 0)
     {
-        cout << "Неверное значение, введите еще раз - ";
-        cin>>a;
+    this->diagonal=diagonal;
+    return true;
     }
-    this->diagonal=a;
+    else
+    {return false;}
 }
 Planshet& Planshet::operator=(Planshet const& planshet)
 {
@@ -36,7 +35,7 @@ Planshet& Planshet::operator=(Planshet const& planshet)
     this->diagonal=planshet.diagonal;
     return *this;
 }
-void Planshet::print()const
+void Planshet::print() const
 {
     cout<<"\nПланшет:";
     cout<<"\nМодель - "<<this->model;

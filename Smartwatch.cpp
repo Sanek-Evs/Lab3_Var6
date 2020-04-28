@@ -18,16 +18,15 @@ const int& Smartwatch::getbattory()const
 {
     return battory;
 }
-void Smartwatch::setbattory (int const& battory)
+bool Smartwatch::setbattory (int const& battory)
 {
-    int a;
-    a=battory;
-    while (a<=0)
+    if (battory > 0)
     {
-        cout << "Неверное значение, введите еще раз - ";
-        cin>>a;
+    this->battory=battory;
+    return true;
     }
-    this->battory=a;
+    else
+    {return false;}
 }
 Smartwatch& Smartwatch::operator=(Smartwatch const& smartwatch)
 {
@@ -35,7 +34,7 @@ Smartwatch& Smartwatch::operator=(Smartwatch const& smartwatch)
     this->battory=smartwatch.battory;
     return *this;
 }
-void Smartwatch::print()const
+void Smartwatch::print() const
 {
     cout<<"\nСмарт-часы: ";
     cout<<"\nМодель - "<<this->model;

@@ -12,7 +12,7 @@ public:
     Smartphone(Smartphone const & smartphone );
 
     const int& getdiagonal()const;
-    void setdiagonal (int const& diagonal);
+    bool setdiagonal (int const& diagonal);
     void print()const;
     Smartphone& operator=(Smartphone const& smartphone);
 }  ;
